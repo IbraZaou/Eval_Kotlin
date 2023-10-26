@@ -12,9 +12,11 @@
         android:id="@+id/favorites_bt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bibliotheque"
+        android:backgroundTint="#FF0000"
+        android:text="Library"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:strokeColor="#FF0000" />
 
     <TextView
         android:id="@+id/title_tv"
@@ -30,8 +32,8 @@
         android:id="@+id/search_et"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="@id/search_bt"
         android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_tv" />
 
@@ -40,7 +42,10 @@
         android:id="@+id/search_bt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/search"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="#FF0000"
+        android:text="Let's search !"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title_tv" />
 

@@ -8,12 +8,12 @@
 
     <ImageView
         android:id="@+id/book_iv"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_width="414dp"
+        android:layout_height="191dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        tools:src="@drawable/ic_launcher_background" />
 
     <TextView
         android:id="@+id/book_title_tv"
